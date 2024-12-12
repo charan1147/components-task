@@ -1,0 +1,54 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f9fa; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.bootstrap p {
+  font-size: 24px;
+  color: black;
+  margin: 0;
+}
+
+.button-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.Button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .Header {
+      flex-direction: column; 
+      align-items: flex-start;
+      padding: 20px;
+  }
+
+  .bootstrap p {
+      font-size: 20px; 
+  }
+
+  .Button {
+      width: 100%; 
+      padding: 12px 0;
+      font-size: 18px; 
+  }
+}
